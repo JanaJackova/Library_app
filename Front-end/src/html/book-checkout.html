@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Book Checkout</title>
+    <link rel="stylesheet" href="../assets/styles/style.css">
+  </head>
+  <body>
+    <h1>Book Checkout</h1>
+
+
+    <form class="search-form">
+        <table>
+            <tr>
+                <td><label for="memberBarcode">Member Barcode:</td>
+                <td><input type="text" id="memberBarcode" name="memberBarcode"></td>
+            </tr>
+            <tr>
+                <td><label for="bookBarcode">Book Barcode:</td>
+                <td><input type="text" id="bookBarcode" name="bookBarcode"></td>
+            </tr>
+            <tr>
+                <td></td>
+                <td><input class="btn-confirm" type="submit" value="Checkout"></td>
+            </tr>
+        </table>
+    </form>
+
+    <br><br>
+    <a class="btn" href="home.html">Back to Home</a>
+    <script src="../assets/scripts/checkout.js"></script>
+  </body>
+</html>
